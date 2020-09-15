@@ -5,6 +5,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(200) DEFAULT NULL,
   `name` varchar(100) DEFAULT NULL,
   `profile_pic` varchar(200) DEFAULT NULL,
-  `google_auth_code` varchar(16) DEFAULT NULL,
+  `google_auth_code` varchar(16) DEFAULT NULL
 ) 
 
