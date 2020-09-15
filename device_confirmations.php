@@ -16,7 +16,7 @@ require_once 'googleLib/GoogleAuthenticator.php';
 
 $ga = new GoogleAuthenticator();
 
-$qrCodeUrl = $ga->getQRCodeGoogleUrl($email, $secret,'9lessons Demos');
+$qrCodeUrl = $ga->getQRCodeGoogleUrl($email, $secret,'Demo OTP');
 
 
 ?>
